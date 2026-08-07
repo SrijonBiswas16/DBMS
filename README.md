@@ -1,21 +1,28 @@
-# DBMS (Database Management Systems)
+# Database Management Systems (DBMS)
 
 ## Overview
-This repository contains a collection of SQL scripts, database schemas, and lab assignments focused on Database Management Systems (DBMS). It serves as a centralized workspace for exploring relational database concepts, executing standard CRUD operations, and managing complex table structures.
+This repository serves as a comprehensive collection of coursework, lab assignments, and projects related to Database Management Systems. It acts as a centralized workspace for exploring relational database concepts, executing complex SQL queries, and designing scalable database schemas.
 
-## Contents
-Currently, this repository includes:
+## Repository Structure
+The repository is organized into distinct folders for each assignment or topic. As new coursework is completed, it will be added as a standalone directory containing the relevant `.sql` scripts, database exports, and documentation.
 
-* **Assignment 1 (`assignment_1`)**: 
-  * Foundational database creation and management.
-  * Features a primary `Student` table and derived `MCA` and `MSc` tables.
-  * Includes 20 specific SQL tasks covering schema modification (`ALTER`), data insertion (`INSERT INTO ... SELECT`), precise filtering (`WHERE`), and bypassing Safe Update Mode for modifications (`UPDATE` / `DELETE`).
+*(Example structure)*
+* `/Assignment_1` - Basic DDL/DML operations and table modifications.
+* `/Assignment_2` - (Future) Joins, subqueries, and advanced filtering.
+* `/Assignment_3` - (Future) Normalization, triggers, and stored procedures.
 
-*(Future lab assignments, database schemas, and queries will be added to this repository as they are completed.)*
+## Key Concepts & Topics Covered
+Over the course of this repository, the following core database concepts are explored:
+* **Data Definition Language (DDL):** `CREATE`, `ALTER`, `DROP`, `TRUNCATE`
+* **Data Manipulation Language (DML):** `INSERT`, `UPDATE`, `DELETE`
+* **Data Querying (DQL):** Advanced `SELECT` statements, filtering, and sorting
+* **Relational Algebra:** Inner, Outer, Left, Right, and Cross Joins
+* **Advanced Operations:** Subqueries, Views, Aggregate Functions (`GROUP BY`, `HAVING`)
+* **Database Design:** Entity-Relationship (ER) modeling, Primary/Foreign Keys, and Constraints
 
-## Technologies Used
+## Technologies & Tools
 * **Database System:** MySQL
-* **Development Environment:** Visual Studio Code (VS Code)
+* **Development Environment:** Visual Studio Code (VS Code) / MySQL Workbench
 * **Version Control:** Git & GitHub
 
 ## How to Use This Repository
