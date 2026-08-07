@@ -1,0 +1,2 @@
+INSERT INTO MCA 
+SELECT * FROM Student WHERE Course = 'MCA';
