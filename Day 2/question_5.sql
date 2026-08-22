@@ -1,0 +1,1 @@
+ALTER TABLE EMP_trainee RENAME COLUMN ID TO Emp_id;

@@ -1,0 +1,4 @@
+INSERT INTO EMP_trainee (Emp_id, Name, Basic, Designation, Age)
+SELECT ID, Name, Basic, Designation, Age 
+FROM EMP1 
+WHERE Designation = 'Trainee';

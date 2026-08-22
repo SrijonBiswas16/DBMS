@@ -1,0 +1,4 @@
+ALTER TABLE EMP1 ADD (
+    Skills VARCHAR2(10), 
+    DOJ DATE
+);
