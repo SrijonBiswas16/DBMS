@@ -1,0 +1,3 @@
+
+#Question 7:
+SELECT Title FROM Movie WHERE Price <= 180 AND LENGTH(Title) = 6;

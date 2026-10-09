@@ -1,0 +1,3 @@
+
+#Question 14:
+ALTER TABLE Movie MODIFY Star VARCHAR(50) NULL;

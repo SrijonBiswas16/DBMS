@@ -1,0 +1,2 @@
+#Question 10:
+ALTER TABLE Customer MODIFY Lname VARCHAR(50) NOT NULL;

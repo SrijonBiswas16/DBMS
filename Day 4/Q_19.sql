@@ -1,0 +1,2 @@
+#Queston 19:
+ALTER TABLE Movie DROP CONSTRAINT ;
