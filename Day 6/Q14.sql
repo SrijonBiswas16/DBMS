@@ -1,0 +1,2 @@
+SELECT MAX(SAL) AS "Max Salary", AVG(SAL) AS "Average Salary" 
+FROM EMP WHERE JOB_ID LIKE '%CLERK%';

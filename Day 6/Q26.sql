@@ -1,0 +1,1 @@
+SELECT SYSDATE + 15 AS "15 Days After", SYSDATE - 15 AS "15 Days Before" FROM DUAL;

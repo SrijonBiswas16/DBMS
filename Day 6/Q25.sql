@@ -1,0 +1,1 @@
+SELECT TO_CHAR(SYSDATE, 'YEAR') AS "Current Year" FROM DUAL;

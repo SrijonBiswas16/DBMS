@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS "Number of Managers" FROM EMP WHERE JOB_ID LIKE '%MGR%';

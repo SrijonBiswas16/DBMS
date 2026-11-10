@@ -1,0 +1,1 @@
+SELECT EMP_ID, TO_CHAR(HIRE_DATE, 'Month') AS "Hire Month" FROM EMP;

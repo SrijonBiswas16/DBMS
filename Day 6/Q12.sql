@@ -1,0 +1,1 @@
+SELECT MIN(FIRST_NAME) AS "First in Alphabet", MAX(FIRST_NAME) AS "Last in Alphabet" FROM EMP;

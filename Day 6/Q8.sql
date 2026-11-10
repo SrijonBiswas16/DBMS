@@ -1,0 +1,1 @@
+SELECT JOB_ID, COUNT(*) AS "Number of People" FROM EMP GROUP BY JOB_ID;
